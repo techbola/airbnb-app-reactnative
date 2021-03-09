@@ -38,13 +38,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
-    top: 20,
+    top: 40,
     zIndex: 200,
     elevation: Platform.OS === 'android' ? 50 : 0,
   },
   searchButtonText: {
     fontSize: 16,
     fontWeight: 'bold',
+    marginLeft: 10,
   },
 });
 

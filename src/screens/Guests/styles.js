@@ -17,7 +17,16 @@ const styles = StyleSheet.create({
     borderColor: '#676767',
     justifyContent: 'center',
     alignItems: 'center',
-  }
+  },
+  searchBtn: {
+    marginBottom: 20,
+    backgroundColor: '#f15454',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 50,
+    marginHorizontal: 20,
+    borderRadius: 10,
+  },
 });
 
 export default styles;
